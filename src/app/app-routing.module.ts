@@ -11,7 +11,11 @@ const routes: Routes = [
   },
   {
     path: ':year/:month',
-    component: CalendarComponent
+    component: AppComponent
+  },
+  {
+    path: '**',
+    component: AppComponent
   }
 ];
 
